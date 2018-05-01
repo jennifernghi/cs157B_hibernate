@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated May 1, 2018 12:36:31 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="cs157B_hibernate.Sales" table="SALES">
+        <id name="date" type="java.util.Date">
+            <column name="date" />
+            <generator class="assigned" />
+        </id>
+        <property name="productName" type="java.lang.String">
+            <column name="productName" />
+        </property>
+        <property name="quantity" type="int">
+            <column name="quantity" />
+        </property>
+        <property name="unitCost" type="double">
+            <column name="unitCost" />
+        </property>
+        <property name="productCost" type="double">
+            <column name="productCost" />
+        </property>
+    </class>
+</hibernate-mapping>

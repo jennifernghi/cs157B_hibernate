@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/mysql-connector-java-5.1.45/mysql-connector-java-5.1.45-bin.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-release-4.2.21.Final/lib/required/hibernate-core-4.2.21.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-release-4.2.21.Final/lib/required/hibernate-commons-annotations-4.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-release-4.2.21.Final/lib/required/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-release-4.2.21.Final/lib/required/jboss-logging-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-release-4.2.21.Final/lib/required/jboss-transaction-api_1.1_spec-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-release-4.2.21.Final/lib/required/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-release-4.2.21.Final/lib/required/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-release-4.2.21.Final/lib/required/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-release-4.2.21.Final/lib/osgi/hibernate-osgi-4.2.21.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-release-4.2.21.Final/lib/osgi/org.osgi.core-4.3.1.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-release-4.2.21.Final/lib/jpa/hibernate-entitymanager-4.2.21.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-release-4.2.21.Final/lib/envers/hibernate-envers-4.2.21.Final.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-annotations-3.4.0.GA/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-annotations-3.4.0.GA/lib/dom4j.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-annotations-3.4.0.GA/lib/hibernate-core.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-annotations-3.4.0.GA/lib/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-annotations-3.4.0.GA/lib/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-annotations-3.4.0.GA/lib/slf4j-api.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-annotations-3.4.0.GA/lib/test/antlr.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-annotations-3.4.0.GA/lib/test/javassist.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-annotations-3.4.0.GA/lib/test/junit.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-annotations-3.4.0.GA/lib/test/log4j.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-annotations-3.4.0.GA/lib/test/asm-attrs.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-annotations-3.4.0.GA/lib/test/asm.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-annotations-3.4.0.GA/lib/test/commons-collections.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-annotations-3.4.0.GA/lib/test/jta.jar"/>
+	<classpathentry kind="lib" path="/Users/jennifernghinguyen/Desktop/hibernate-annotations-3.4.0.GA/lib/test/slf4j-log4j12.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
