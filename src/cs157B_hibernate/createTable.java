@@ -5,7 +5,10 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class createTable {
-	
+	/**
+	 * create table sales
+	 * @param conn - connection to mysql
+	 */
 	public static void create(Connection conn){
 		Statement st = null;
 		String drop = "drop table if exists `sales`; ";
@@ -16,21 +19,15 @@ public class createTable {
 					   " `unitCost` double NOT NULL DEFAULT '1', "+
 					   " `productCost` double NOT NULL DEFAULT '1', "+
 					   " PRIMARY KEY (`date`) "+
-					   " ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;";
-		
+					   " ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;";	
 		try {
 			st = conn.createStatement();
 			st.executeUpdate(drop);
-			st.executeUpdate(query);
-			
-			System.out.println("sales table created.");
-			
-			
-			
+			st.executeUpdate(query);			
+			System.out.println("sales table created.");		
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
-		
+		}		
 	}
 }

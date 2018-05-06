@@ -41,6 +41,9 @@ public class demo {
 		 * iii. Perform aggregate operation on the sales transaction objects, e.g., how much sales of a given product item in the last month?
 		 */
 		
+		
+		Queries.queries();
+		
 	}
 
 }

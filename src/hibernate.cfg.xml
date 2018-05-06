@@ -11,6 +11,8 @@
   <property name="hibernate.connection.password">123</property>
   <property name="hibernate.show_sql">true</property>
   <property name="hibernate.hbm2ddl.auto">update</property>
+  
+  <!-- mapping resources: sales table -->
   <mapping resource="cs157B_hibernate/Sales.hbm.xml"/>
  </session-factory>
 </hibernate-configuration>
