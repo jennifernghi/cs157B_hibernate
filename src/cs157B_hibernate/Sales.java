@@ -71,7 +71,11 @@ public class Sales {
 	public void setProductCost(double productCost) {
 		this.productCost = productCost;
 	}
-
+	
+	public String toString()
+	{	
+		return this.getDate() + " " + this.getProductName() +" " + this.getQuantity() + " " + this.getUnitCost() +" " + this.getProductCost();
+	}
 	public void save() {
 		Configuration con = new Configuration();
 		con.configure("hibernate.cfg.xml");
