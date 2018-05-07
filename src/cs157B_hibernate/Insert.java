@@ -28,8 +28,7 @@ public class Insert {
 					double productCost = quantity * unitCost; // productCost = quantity * unitCost
 
 					Sales s = new Sales(date, productName, quantity, unitCost, productCost);
-					s.save();
-					
+					s.save(); // insert into DB
 					
 				} catch (ParseException e) {
 					e.printStackTrace();
