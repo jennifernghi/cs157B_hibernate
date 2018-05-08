@@ -42,7 +42,10 @@ public class demo {
 		 */
 		
 		
-		Queries.queries();
+		Queries.select1();
+		Queries.select2();
+		Queries.select3();
+		
 		
 	}
 
