@@ -17,6 +17,8 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.service.ServiceRegistry;
 import org.hibernate.service.ServiceRegistryBuilder;
 
+import practice.Sales;
+
 public class Queries {
 
 	public static void queries() {
@@ -49,6 +51,19 @@ public class Queries {
 			Sales temp = new Sales((Date)entries[0], entries[1].toString(), (int)entries[2], (double)entries[3], (double)entries[4]);
 			System.out.println(temp.toString());
 		}
+		
+		
+		System.out.println("-----------how much sales of a given product item in the last month--------------------");
+		String q = "select count(*) from sales where productname = 'apple' and date >= '2018-03-03' and date <= '2018-04-03' ";
+		SQLQuery query3 = session.createSQLQuery(q);
+		List<Object[]> rows2 = query3.list();	
+		for(Object[] entries : rows2)
+		{
+			Sales temp = new Sales((Date)entries[0], entries[1].toString(), (int)entries[2], (double)entries[3], (double)entries[4]);
+			System.out.println(temp.toString());
+		}
+
+		
 		
 		
 		t.commit();
